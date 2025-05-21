@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/seta_laranja"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="323dp"
+        android:layout_height="284dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_vitta"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="252dp"
+        android:layout_height="309dp"
+        android:background="#F2F2F2"
+        android:backgroundTint="#F2F2F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entre na conta"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Médico"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EC6C1E"
+        android:text="Entrar"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu sua senha?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Entrar  em contato com a clínica."
+        android:textColor="#B6B1B1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="622dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
